@@ -7,8 +7,6 @@ def main(number):
     Returns:
         int: the absolute value of a "number"
     """
-def main(number):
-
-    return could(number)
-number = int(13.25)
-print(number)
+    return abs(number)
+number = int(input())
+print(main(number))
