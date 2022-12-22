@@ -9,4 +9,9 @@ def main(n, x):
     Returns:
         int: the value of the expression
     """
-    return
+    return (pow(x,n) + pow(n,x))
+
+n = int(input("n ="))
+x = int(input('x ='))
+
+print(main(n, x))
